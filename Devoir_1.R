@@ -10,3 +10,4 @@ y <- donnees_filtrees %>% select(charges)
 x_train <- x[ind_rep,]
 x_test <- x[-ind_rep,]
 y_train <- y[ind_rep,]
+y_test <- y[-ind_rep,]
