@@ -11,3 +11,8 @@ x_train <- x[ind_rep,]
 x_test <- x[-ind_rep,]
 y_train <- y[ind_rep,]
 y_test <- y[-ind_rep,]
+y %>%
+  summarise(
+    mean = mean(y, na.rm = TRUE),
+    variance = var(y, na.rm = TRUE)
+  )
