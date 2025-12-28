@@ -1,1 +1,1 @@
-
+install.packages("wbstats")
