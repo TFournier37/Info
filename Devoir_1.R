@@ -6,3 +6,4 @@ donnees_filtrees <- donnees %>%
   group_by(region)
 n <- nrow(donnees_filtrees)
 ind_rep <- sample (1:n,floor(.8*n))
+x <- donnees_filtrees %>% select(-charges)
