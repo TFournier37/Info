@@ -5,3 +5,4 @@ donnees_filtrees <- donnees %>%
   filter (bmi<45) %>% 
   group_by(region)
 n <- nrow(donnees_filtrees)
+ind_rep <- sample (1:n,floor(.8*n))
