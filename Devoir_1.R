@@ -4,5 +4,4 @@ donnees_filtrees <- donnees %>%
   filter(charges<50000) %>% 
   filter (bmi<45) %>% 
   group_by(region)
-  
-
+n <- nrow(donnees_filtrees)
