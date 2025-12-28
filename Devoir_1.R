@@ -1,2 +1,1 @@
-install.packages("wbstats")
-library(wbstats)
+donnees <- read.csv("insurance.csv")
