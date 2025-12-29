@@ -11,6 +11,10 @@ x_train <- x[ind_rep,]
 x_test <- x[-ind_rep,]
 y_train <- y[ind_rep,]
 y_test <- y[-ind_rep,]
-moyenne <- mean(y$charges)
-variance <- var(y$charges)
+summarise(y,min=min(y),
+          max=max(y),
+          moyenne=mean(y$charges),
+          mediane=median(y$charges),
+          variance=var(y)
+          )
 
