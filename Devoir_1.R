@@ -24,4 +24,10 @@ ggplot(donnees_filtrees, aes(x = charges)) +
     title = "Diagramme à moustaches",
     x = "Charges"
   ) 
+ggplot(donnees_filtrees, aes(x = charges)) +
+  geom_histogram() +
+  labs(
+    title = "Historigrame"+  
+    x = "Charges"
+  ) 
 
