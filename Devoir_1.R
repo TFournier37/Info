@@ -37,3 +37,10 @@ ggplot(donnees_filtrees, aes(x = bmi, y = charges)) +
     x = "BMI",
     y = "Charges"
   )
+ggplot(donnees_filtrees, aes(x = age, y = charges)) +
+  geom_point() +
+  labs(
+    title = "Charges en fonction de l'age",
+    x = "age",
+    y = "Charges"
+  )
