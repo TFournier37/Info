@@ -1,3 +1,4 @@
+library(ggplot2)
 library(tidyverse)
 donnees <- read.csv("insurance.csv")
 donnees_filtrees <- donnees %>% 
