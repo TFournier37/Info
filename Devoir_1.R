@@ -18,4 +18,10 @@ summarise(y,min=min(y),
           mediane=median(y$charges),
           variance=var(y)
           )
+ggplot(donnees_filtrees, aes(x = charges)) +
+  geom_boxplot() +
+  labs(
+    title = "Diagramme à moustaches",
+    x = "Charges"
+  ) 
 
