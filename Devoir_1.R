@@ -47,3 +47,9 @@ ggplot(donnees_filtrees, aes(x = age, y = charges)) +
 
 model_p <- glm(charges~age+sex+bmi+children+smoker+region,family= poisson,donnees_filtrees)
 summary(model_p)
+
+model_g <- glm(y_train~age+sex+bmi+children+smoker+region,
+               family = Gamma(),
+               cbind(x_train,y_train)
+               )
+summary(model_g)
