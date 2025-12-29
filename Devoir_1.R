@@ -30,4 +30,10 @@ ggplot(donnees_filtrees, aes(x = charges)) +
     title = "Historigrame"+  
     x = "Charges"
   ) 
-
+ggplot(donnees_filtrees, aes(x = bmi, y = charges)) +
+  geom_point() +
+  labs(
+    title = "Charges en fonction du BMI",
+    x = "BMI",
+    y = "Charges"
+  )
