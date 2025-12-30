@@ -14,6 +14,12 @@ Les modèles vont prédire la prime selon l'age, le BMI, le sexe, la region, le 
 Étape 5:
 La regression gamma est un bon choix pour un estimation de cout, surtout dans un cas actuarielle. La loi gamma est fortement assymétrique à droite comme les primes d'une assurance qui sont rarement élevée mais qui sont très haute quand elle le sont. La poisson est un peu moins bien adapter pour une variable aléatoire continue mais peu quand bien l'approximer. Les coeficients représentent le poid de chaque variable, plus le coeficient est élevé plus la variable est importante. Il faut aussi prendre en compte la valeur de la variable. Par exemple, un coeficient de grandeur va etre plus élevé si on mesure en mètre qu'en centimètre.
 
+Étape 6:
+D'après moi le modele Gamma est plus adéquat grâce a son assymétrie à droite. Le modele Gamma est aussi meilleur car il renvoie des valeur continue alors que le modele poisson ne renvoit que des valeur discrète. D'un point de vue actuarielle si on cherche a modeliser un cout, il est plus judicieux d'utiliser la loi gamma que la poisson. La loi poisson est utilisé pour des fréquences et non des sévéritées. Par exemple, pour un portefeuille, une poisson pour modeliser le nombre de sinistre mais une gamma serait plus pertinente si on cherche a modeliser la severité de chaque sinitre.
+
+Étape 7:
+
+
 
 
 
