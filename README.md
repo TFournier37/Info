@@ -12,6 +12,8 @@ Les données sont de bonne qualité car il n'y a aucne valeur manquante et il y 
 Les modèles vont prédire la prime selon l'age, le BMI, le sexe, la region, le nombre d'enfant et Si l'assuré fume. D'un point de vue actuarielle, c'est très important de calculer la prime d'un assuré pour savoir quoi leur chargé. Donc faire une prédiction de la prime est très utile pour la tarification.
 
 Étape 5:
-La regression gamma est un bon choix pour un estimation de cout, surtout dans un cas actuarielle. La loi gamma est fortement assymétrique à droite comme les primes d'une assurance qui sont rarement élevée mais qui sont très haute quand elle le sont. La poisson est un peu moins bien adapter pour une variable aléatoire continue mais peu quand bien l'approximer.  
+La regression gamma est un bon choix pour un estimation de cout, surtout dans un cas actuarielle. La loi gamma est fortement assymétrique à droite comme les primes d'une assurance qui sont rarement élevée mais qui sont très haute quand elle le sont. La poisson est un peu moins bien adapter pour une variable aléatoire continue mais peu quand bien l'approximer. Les coeficients représentent le poid de chaque variable, plus le coeficient est élevé plus la variable est importante. Il faut aussi prendre en compte la valeur de la variable. Par exemple, un coeficient de grandeur va etre plus élevé si on mesure en mètre qu'en centimètre.
+
+
 
 
