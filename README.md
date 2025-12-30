@@ -3,4 +3,7 @@ Les données viennent de Kaggle et je les ai téléchargées directement de Kagg
 https://www.kaggle.com/datasets/mirichoi0218/insurance?resource=download
 
 Étape 2:
-J'ai enlever les données extrême des BMI et des primes pour minimiser les abérations.
+Pour avoir les données, j'ai tout simplement téléchargé les données directement de Kaggle et j'ai ensuite effectuer un read.csv. J'ai enlever les données extrême des BMI et des primes pour minimiser les abérations.
+
+Étape 3:
+
