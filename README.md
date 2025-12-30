@@ -18,7 +18,7 @@ La regression gamma est un bon choix pour un estimation de cout, surtout dans un
 D'après moi le modele Gamma est plus adéquat grâce a son assymétrie à droite. Le modele Gamma est aussi meilleur car il renvoie des valeur continue alors que le modele poisson ne renvoit que des valeur discrète. D'un point de vue actuarielle si on cherche a modeliser un cout, il est plus judicieux d'utiliser la loi gamma que la poisson. La loi poisson est utilisé pour des fréquences et non des sévéritées. Par exemple, pour un portefeuille, une poisson pour modeliser le nombre de sinistre mais une gamma serait plus pertinente si on cherche a modeliser la severité de chaque sinitre.
 
 Étape 7:
-Les résultats obtenus sont propres à ce jeu de données et ne peuvent pas être généralisés sans précaution et le jeu de données ne permet pas de distinguer clairement le nombre de sinistres et le montant de chaque sinistre. En d'autre mot , Le jeu de données peut ne pas être représentatif de toute la population assurée. Certaines informations, comme le BMI, peuvent être imprécises ou mal déclarées et il peu manquer certaine information importante. 
+Les résultats obtenus sont propres à ce jeu de données et ne peuvent pas être généralisés sans précaution et le jeu de données ne permet pas de distinguer clairement le nombre de sinistres et le montant de chaque sinistre. En d'autre mot , Le jeu de données peut ne pas être représentatif de toute la population assurée. Certaines informations, comme le BMI, peuvent être imprécises ou mal déclarées et il peu manquer certaine information importante. Pour améliorer le tout on devrait, Séparer clairement la fréquence et la sévérité des sinistres et ajouter plus de variables explicatives, notamment des informations médicales.
 
 
 
